@@ -1,0 +1,159 @@
+// 000098.524598735599-000130.916299168116.dmp: Dump of structure.
+
+// datafilename: /tmp/electron26708.9
+// Total energy: 98.52459873559946396
+SPACE_DIMENSION 4
+STRING
+
+LINEAR
+
+PARAMETER knot_power =  1 pdelta =  0 pscale =  0 
+PARAMETER counter =  0 pdelta =  0 pscale =  0 
+PARAMETER last_total_energy = 98.52459873559946396 pdelta =  0 pscale =  0 
+PARAMETER inner_last_total_energy = 98.52459873559946396 pdelta =  0 pscale =  0 
+VIEW_MATRIX 
+ 1.163679263281115   0.000000000000000   0.000000000000000   0.000000000000000  -0.039247594182941  
+ 0.000000000000000   1.163679263281115   0.000000000000000   0.000000000000000   0.043581124826783  
+ 0.000000000000000   0.000000000000000   1.163679263281115   0.000000000000000   0.063721306496604  
+ 0.000000000000000   0.000000000000000   0.000000000000000   1.163679263281115   0.075347886425154  
+ 0.000000000000000   0.000000000000000   0.000000000000000   0.000000000000000   1.000000000000000  
+
+TOTAL_TIME 49.7501
+
+SCALE: 0.0167381133835755
+
+TEMPERATURE: 10000
+
+CONSTRAINT_TOLERANCE: 1e-64
+
+
+QUANTITY MY_ENERGY ENERGY  method knot_energy global 
+
+
+QUANTITY MY_GRADIENT ENERGY  modulus  0  method charge_gradient global 
+
+
+CONSTRAINT 1  
+FUNCTION:  (X4)^2 + (X1)^2 + (X2)^2 + (X3)^2 = 1
+
+vertices        /*  coordinates  */    
+  1   0.8944844061272498045 -0.3720741919926307294   0.221977709109321343  -0.110382695685463832  constraints 1 
+  2  -0.1346998794523931104  -0.677901720092130811  0.6338898109207344592 -0.3471151220885033845  constraints 1 
+  3  -0.4728292068121402223   0.706077134518596377 -0.3317210744587909629 -0.4096934830520441033  constraints 1 
+  4   0.6669036190866137991  0.6888824643754156442 -0.1926603853151946973 -0.2087162884286505183  constraints 1 
+  5  -0.6899077151706147434 -0.4469698336318273046 -0.3632176947511336897 -0.4385410112986820878  constraints 1 
+  6   0.5659687123722652595 0.06146664498330555912 -0.3683009040711957044  0.7350208923768876476  constraints 1 
+  7  0.06308278606615080741 -0.2478415413724292897  0.6368811620718103969  0.7273084062970336989  constraints 1 
+  8     0.17330815014694529  0.4373242289381713631  0.8286883574542873977 -0.3032942632098288542  constraints 1 
+  9    0.042658919748131357 -0.9130880150217489813 -0.2634906382393378634  0.3082582958328797003  constraints 1 
+ 10   0.1806236736024661538 -0.05549306342192930991 -0.02341314032462752919 -0.9817063885432032794  constraints 1 
+ 11  -0.8600089021291165371  0.1000039938442765986   0.495905085107884953 0.06679847332092944619  constraints 1 
+ 12   0.2483470626336845116 -0.1033212936600285763 -0.9384316956611459833  -0.216781916534071642  constraints 1 
+ 13  -0.09442240844227874935  0.8026440102305318285  0.1872724541178095676  0.5583690800480469966  constraints 1 
+ 14  -0.5830545799183334693  0.0209113664258338738 -0.5235282785050912316  0.6209091827280023628  constraints 1 
+
+edges  
+  1       1    2      density 0 
+  2       1    3      density 0 
+  3       1    4      density 0 
+  4       1    5      density 0 
+  5       1    6      density 0 
+  6       1    7      density 0 
+  7       1    8      density 0 
+  8       1    9      density 0 
+  9       1   10      density 0 
+ 10       1   11      density 0 
+ 11       1   12      density 0 
+ 12       1   13      density 0 
+ 13       1   14      density 0 
+ 14       2    3      density 0 
+ 15       2    4      density 0 
+ 16       2    5      density 0 
+ 17       2    6      density 0 
+ 18       2    7      density 0 
+ 19       2    8      density 0 
+ 20       2    9      density 0 
+ 21       2   10      density 0 
+ 22       2   11      density 0 
+ 23       2   12      density 0 
+ 24       2   13      density 0 
+ 25       2   14      density 0 
+ 26       3    4      density 0 
+ 27       3    5      density 0 
+ 28       3    6      density 0 
+ 29       3    7      density 0 
+ 30       3    8      density 0 
+ 31       3    9      density 0 
+ 32       3   10      density 0 
+ 33       3   11      density 0 
+ 34       3   12      density 0 
+ 35       3   13      density 0 
+ 36       3   14      density 0 
+ 37       4    5      density 0 
+ 38       4    6      density 0 
+ 39       4    7      density 0 
+ 40       4    8      density 0 
+ 41       4    9      density 0 
+ 42       4   10      density 0 
+ 43       4   11      density 0 
+ 44       4   12      density 0 
+ 45       4   13      density 0 
+ 46       4   14      density 0 
+ 47       5    6      density 0 
+ 48       5    7      density 0 
+ 49       5    8      density 0 
+ 50       5    9      density 0 
+ 51       5   10      density 0 
+ 52       5   11      density 0 
+ 53       5   12      density 0 
+ 54       5   13      density 0 
+ 55       5   14      density 0 
+ 56       6    7      density 0 
+ 57       6    8      density 0 
+ 58       6    9      density 0 
+ 59       6   10      density 0 
+ 60       6   11      density 0 
+ 61       6   12      density 0 
+ 62       6   13      density 0 
+ 63       6   14      density 0 
+ 64       7    8      density 0 
+ 65       7    9      density 0 
+ 66       7   10      density 0 
+ 67       7   11      density 0 
+ 68       7   12      density 0 
+ 69       7   13      density 0 
+ 70       7   14      density 0 
+ 71       8    9      density 0 
+ 72       8   10      density 0 
+ 73       8   11      density 0 
+ 74       8   12      density 0 
+ 75       8   13      density 0 
+ 76       8   14      density 0 
+ 77       9   10      density 0 
+ 78       9   11      density 0 
+ 79       9   12      density 0 
+ 80       9   13      density 0 
+ 81       9   14      density 0 
+ 82      10   11      density 0 
+ 83      10   12      density 0 
+ 84      10   13      density 0 
+ 85      10   14      density 0 
+ 86      11   12      density 0 
+ 87      11   13      density 0 
+ 88      11   14      density 0 
+ 89      12   13      density 0 
+ 90      12   14      density 0 
+ 91      13   14      density 0 
+
+faces    /* edge loop */      
+
+bodies  /* facets */
+
+read
+filename := "000098.524598735599-000130.916299168116.dmp"
+conj_grad on
+metric_conversion off
+gv_binary off
+
+
+// topeviewer:  (0.56384438276290894, -0.35449427366256714, -0.74556481838226318, -0.023375952616333961) (-0.43922039866447449, 0.16524685919284821, 0.31443440914154053, -0.82517266273498535) 1 0.89349999999999996 1.1674 1.1950000000000001 0.014999999999999999 0 100 0.035000000000000003 0 100 5 1 45 

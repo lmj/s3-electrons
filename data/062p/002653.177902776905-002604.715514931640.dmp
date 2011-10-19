@@ -1,0 +1,2007 @@
+// 002653.177902776905-002604.715514931640.dmp: Dump of structure.
+
+// datafilename: /tmp/electron3520.0
+// Total energy: 2653.177902776905354
+SPACE_DIMENSION 4
+STRING
+
+LINEAR
+
+PARAMETER knot_power =  1 pdelta =  0 pscale =  0 
+PARAMETER counter =  0 pdelta =  0 pscale =  0 
+PARAMETER last_total_energy = 2653.177902776905354 pdelta =  0 pscale =  0 
+PARAMETER inner_last_total_energy = 2653.177902776905354 pdelta =  0 pscale =  0 
+VIEW_MATRIX 
+ 1.110038640353987   0.000000000000000   0.000000000000000   0.000000000000000   0.025212554462918  
+ 0.000000000000000   1.110038640353987   0.000000000000000   0.000000000000000  -0.064829881194654  
+ 0.000000000000000   0.000000000000000   1.110038640353987   0.000000000000000  -0.029312714389457  
+ 0.000000000000000   0.000000000000000   0.000000000000000   1.110038640353987  -0.061210861118378  
+ 0.000000000000000   0.000000000000000   0.000000000000000   0.000000000000000   1.000000000000000  
+
+TOTAL_TIME 11.0493
+
+SCALE:  0
+
+TEMPERATURE: 10000
+
+CONSTRAINT_TOLERANCE: 1e-64
+
+
+QUANTITY MY_ENERGY ENERGY  method knot_energy global 
+
+
+QUANTITY MY_GRADIENT ENERGY  modulus  0  method charge_gradient global 
+
+
+CONSTRAINT 1  
+FUNCTION:  (X4)^2 + (X1)^2 + (X2)^2 + (X3)^2 = 1
+
+vertices        /*  coordinates  */    
+  1   0.4082501725355720095  0.8383117586634549188  0.2674209351387926688 -0.2430045994641966586  constraints 1 
+  2   -0.555399066810970247 -0.4704808931915844564 -0.6021145351171110888  0.3280818378512554967  constraints 1 
+  3   -0.925999330932240164 -0.1861894937728736524 -0.007244347020071731658  0.3283385919411505695  constraints 1 
+  4  -0.1161150416093387583   0.795259370167456677  0.5170333554392168191  0.2945442931651980414  constraints 1 
+  5  -0.4385799632509255784 -0.7101504163416460871  0.4598255434171292054 -0.3031410094753682702  constraints 1 
+  6   0.4576875028507511191 -0.1360061564573911204  0.8483335721278538226 -0.2288113317576880191  constraints 1 
+  7  -0.6323039364143973823  0.4277086695916746615  0.6441535659369944775 -0.04819968300343369207  constraints 1 
+  8  -0.6154309648989960991  0.3377987656283875806 -0.2034145917954034576 -0.6824655487481677188  constraints 1 
+  9  -0.3026489558621020645 -0.1364402664397523687   0.875675055505361314 -0.3506862705825695166  constraints 1 
+ 10   0.1592192851548957997  0.8893860715229876561 -0.3941852627161646483 -0.1681059596595531764  constraints 1 
+ 11   0.5579268342500996246 -0.7711671560360713641 -0.2829205614884961089 -0.1182151469226068102  constraints 1 
+ 12   0.8148304756720687405  0.1823365946473558048  0.1511521098437428647  0.5291102927161983893  constraints 1 
+ 13  -0.6876108445395729778 -0.6590761073069222112 -0.2017806562845499259 -0.2282423667904490591  constraints 1 
+ 14  -0.4395360953477774108 -0.2291792852525935443  -0.133691657743592011  0.8581441701411891187  constraints 1 
+ 15   -0.347734346753760912 -0.2680895635464717256 -0.6291731978237580256 -0.6413656501134307829  constraints 1 
+ 16   0.7054185628036651051  -0.435439874894582185 -0.2420616419244749898  0.5041655760884805364  constraints 1 
+ 17  -0.8779022038845403542  0.4780789757118310617 -0.00833312053670100936 0.02566656383535194975  constraints 1 
+ 18   0.8444827269243117072 -0.4239341907802167152  0.3224948951086312532 0.05590857217702957578  constraints 1 
+ 19   0.4105073047151656957 -0.2851216328608459697 -0.6623249253097145946 -0.5581353783480635476  constraints 1 
+ 20  -0.6804010650194251482 -0.2365597998653269352  0.6452423399447288604  0.2544723453555600359  constraints 1 
+ 21  0.03759696462465016984  0.6420210310720573783 -0.05108624396811539846 -0.7640586754886141145  constraints 1 
+ 22  -0.01114192012046402757  0.3473829198929439613 -0.7056489005368239621 -0.6174630302729493783  constraints 1 
+ 23  -0.08625221729435676358  -0.689963874277683289 -0.7039486316633691718 -0.1447989336383611296  constraints 1 
+ 24  -0.4936973265467534855 -0.3294714507405650713 0.06962682043005325531 -0.8017877641772146541  constraints 1 
+ 25   0.3462854541649810543  -0.778674009526464476  0.4451843670995464575 -0.2748891602299162568  constraints 1 
+ 26  -0.03334845294613715672 -0.0987563724885046166 -0.7306782925399108492  0.6747179354292958663  constraints 1 
+ 27  -0.6442209439335805256  0.2682306278360281316 -0.5241168650264264429  0.4881938318771421692  constraints 1 
+ 28   0.2847213598036896355 -0.1941374263427114742 -0.01589936240652398171  0.9386115369201638983  constraints 1 
+ 29   0.2914606709767883078 -0.7746656612868186703  0.2700646976941925113  0.4919439496082462127  constraints 1 
+ 30   0.5657995925252508406  0.2334109040900202333 -0.5104540898227588361  0.6040089346469622738  constraints 1 
+ 31  -0.02864724247084424869 -0.5785136246282190857  0.7973194204221541512  0.1696557203162241599  constraints 1 
+ 32  -0.08096087640247332604 -0.9953789146643590923 -0.04840245670283435564 -0.0179820721519023842  constraints 1 
+ 33   0.4119450544815485373 -0.3352240533576470948 -0.8266381031719704084  0.1859987971007075833  constraints 1 
+ 34   0.4934033729227759689 -0.2067891042914254878  0.6687556634527427863  0.5162918172261302118  constraints 1 
+ 35   0.1548101107023587479  0.3581497269196850218  0.4395575202646035155  0.8090437498124011497  constraints 1 
+ 36  -0.3694795214987013124   0.861347859439397997  0.1711809400703087975 -0.3037463316468252155  constraints 1 
+ 37  -0.4766925432508411681  0.6165333444100636891 -0.6038962143120359394  -0.167213087942236956  constraints 1 
+ 38  -0.1939378303634000051 -0.2795495905227222536  0.5187950293613177303  0.7842779238908263912  constraints 1 
+ 39  -0.09078815485761135593  0.4085200324021876026 -0.2129291665705991024  0.8829099977275237721  constraints 1 
+ 40  -0.3617133093585240614  0.8456296762509421821 -0.1354533300361843512  0.3684105425455953201  constraints 1 
+ 41  0.05306962342403811486 -0.7265518494465064628 -0.1516920696079790754    -0.6680535466214814  constraints 1 
+ 42   0.3564996803814132129  0.7971915323493531644 -0.01752420849327507656  0.4869153322243248648  constraints 1 
+ 43  -0.09762636364880674782  0.1561283022103381579  0.9280338025180483722  0.3237997957898062916  constraints 1 
+ 44   0.6386922313029389636  0.3442821018866544272 -0.2847488458380767067 -0.6264664099436326839  constraints 1 
+ 45   0.4583657698025229435   0.305891520921415402 -0.8276889289698450322 -0.1061236795558590425  constraints 1 
+ 46  -0.4856192850702849316 -0.7426560913325530841  0.1738099962795556431   0.427113480433222529  constraints 1 
+ 47    0.778691336830738096  0.5765289450231683193 -0.2437203187992047542 0.04306487779669821583  constraints 1 
+ 48   0.6846635231926100043 -0.3413489584441790293 0.06603234296806805746 -0.6405907260183400078  constraints 1 
+ 49  0.05005928386515268338  0.5085006144117636972  0.7955377412605551027 -0.3256392105871480669  constraints 1 
+ 50  -0.3664000840726372381  0.2867244505326480322  0.4581916089006645229 -0.7573641907242089291  constraints 1 
+ 51   0.1029853842949472006 -0.03716629513073696699 -0.1528220120128187542 -0.9821701022593952287  constraints 1 
+ 52  0.04242978862496465242 -0.7235913505839090656 -0.3915415023384340733  0.5668425904463753743  constraints 1 
+ 53  -0.5953093644007582534  0.3405348270515643882  0.3241307643491502209   0.651599600847147543  constraints 1 
+ 54    0.919861509999690896 -0.1093553776202036582 -0.3651541733421195793 -0.09251288287295188142  constraints 1 
+ 55  -0.2280137542618177108  0.0046258776945858005 -0.9733850701713873417 -0.02257951041164267606  constraints 1 
+ 56  -0.8899376639357399651 -0.09033030991746994113  0.2894319834671005447 -0.3407059089084188796  constraints 1 
+ 57  -0.8294007838530676581 -0.02840753600607718894 -0.5237588998455242977 -0.1922601531118354722  constraints 1 
+ 58   0.8909034452265910171  0.2171813833036479838  0.3214440692169595035 -0.2362139038984517947  constraints 1 
+ 59   0.4213957540786571685  0.2586727755442470837  0.4434840969738080314 -0.7475532552053007361  constraints 1 
+ 60  0.08480332101056995811 -0.3567997030944011141   0.519959802167938201 -0.7714558786779733941  constraints 1 
+ 61   0.5420466805519901054  0.4650226403463016945  0.6676545257742852829  0.2101827164184466525  constraints 1 
+ 62  0.01529485584902413553  0.5730553742163556863 -0.7317794280926712626  0.3686088361483933385  constraints 1 
+
+edges  
+  1       1    2      density 0 
+  2       1    3      density 0 
+  3       1    4      density 0 
+  4       1    5      density 0 
+  5       1    6      density 0 
+  6       1    7      density 0 
+  7       1    8      density 0 
+  8       1    9      density 0 
+  9       1   10      density 0 
+ 10       1   11      density 0 
+ 11       1   12      density 0 
+ 12       1   13      density 0 
+ 13       1   14      density 0 
+ 14       1   15      density 0 
+ 15       1   16      density 0 
+ 16       1   17      density 0 
+ 17       1   18      density 0 
+ 18       1   19      density 0 
+ 19       1   20      density 0 
+ 20       1   21      density 0 
+ 21       1   22      density 0 
+ 22       1   23      density 0 
+ 23       1   24      density 0 
+ 24       1   25      density 0 
+ 25       1   26      density 0 
+ 26       1   27      density 0 
+ 27       1   28      density 0 
+ 28       1   29      density 0 
+ 29       1   30      density 0 
+ 30       1   31      density 0 
+ 31       1   32      density 0 
+ 32       1   33      density 0 
+ 33       1   34      density 0 
+ 34       1   35      density 0 
+ 35       1   36      density 0 
+ 36       1   37      density 0 
+ 37       1   38      density 0 
+ 38       1   39      density 0 
+ 39       1   40      density 0 
+ 40       1   41      density 0 
+ 41       1   42      density 0 
+ 42       1   43      density 0 
+ 43       1   44      density 0 
+ 44       1   45      density 0 
+ 45       1   46      density 0 
+ 46       1   47      density 0 
+ 47       1   48      density 0 
+ 48       1   49      density 0 
+ 49       1   50      density 0 
+ 50       1   51      density 0 
+ 51       1   52      density 0 
+ 52       1   53      density 0 
+ 53       1   54      density 0 
+ 54       1   55      density 0 
+ 55       1   56      density 0 
+ 56       1   57      density 0 
+ 57       1   58      density 0 
+ 58       1   59      density 0 
+ 59       1   60      density 0 
+ 60       1   61      density 0 
+ 61       1   62      density 0 
+ 62       2    3      density 0 
+ 63       2    4      density 0 
+ 64       2    5      density 0 
+ 65       2    6      density 0 
+ 66       2    7      density 0 
+ 67       2    8      density 0 
+ 68       2    9      density 0 
+ 69       2   10      density 0 
+ 70       2   11      density 0 
+ 71       2   12      density 0 
+ 72       2   13      density 0 
+ 73       2   14      density 0 
+ 74       2   15      density 0 
+ 75       2   16      density 0 
+ 76       2   17      density 0 
+ 77       2   18      density 0 
+ 78       2   19      density 0 
+ 79       2   20      density 0 
+ 80       2   21      density 0 
+ 81       2   22      density 0 
+ 82       2   23      density 0 
+ 83       2   24      density 0 
+ 84       2   25      density 0 
+ 85       2   26      density 0 
+ 86       2   27      density 0 
+ 87       2   28      density 0 
+ 88       2   29      density 0 
+ 89       2   30      density 0 
+ 90       2   31      density 0 
+ 91       2   32      density 0 
+ 92       2   33      density 0 
+ 93       2   34      density 0 
+ 94       2   35      density 0 
+ 95       2   36      density 0 
+ 96       2   37      density 0 
+ 97       2   38      density 0 
+ 98       2   39      density 0 
+ 99       2   40      density 0 
+100       2   41      density 0 
+101       2   42      density 0 
+102       2   43      density 0 
+103       2   44      density 0 
+104       2   45      density 0 
+105       2   46      density 0 
+106       2   47      density 0 
+107       2   48      density 0 
+108       2   49      density 0 
+109       2   50      density 0 
+110       2   51      density 0 
+111       2   52      density 0 
+112       2   53      density 0 
+113       2   54      density 0 
+114       2   55      density 0 
+115       2   56      density 0 
+116       2   57      density 0 
+117       2   58      density 0 
+118       2   59      density 0 
+119       2   60      density 0 
+120       2   61      density 0 
+121       2   62      density 0 
+122       3    4      density 0 
+123       3    5      density 0 
+124       3    6      density 0 
+125       3    7      density 0 
+126       3    8      density 0 
+127       3    9      density 0 
+128       3   10      density 0 
+129       3   11      density 0 
+130       3   12      density 0 
+131       3   13      density 0 
+132       3   14      density 0 
+133       3   15      density 0 
+134       3   16      density 0 
+135       3   17      density 0 
+136       3   18      density 0 
+137       3   19      density 0 
+138       3   20      density 0 
+139       3   21      density 0 
+140       3   22      density 0 
+141       3   23      density 0 
+142       3   24      density 0 
+143       3   25      density 0 
+144       3   26      density 0 
+145       3   27      density 0 
+146       3   28      density 0 
+147       3   29      density 0 
+148       3   30      density 0 
+149       3   31      density 0 
+150       3   32      density 0 
+151       3   33      density 0 
+152       3   34      density 0 
+153       3   35      density 0 
+154       3   36      density 0 
+155       3   37      density 0 
+156       3   38      density 0 
+157       3   39      density 0 
+158       3   40      density 0 
+159       3   41      density 0 
+160       3   42      density 0 
+161       3   43      density 0 
+162       3   44      density 0 
+163       3   45      density 0 
+164       3   46      density 0 
+165       3   47      density 0 
+166       3   48      density 0 
+167       3   49      density 0 
+168       3   50      density 0 
+169       3   51      density 0 
+170       3   52      density 0 
+171       3   53      density 0 
+172       3   54      density 0 
+173       3   55      density 0 
+174       3   56      density 0 
+175       3   57      density 0 
+176       3   58      density 0 
+177       3   59      density 0 
+178       3   60      density 0 
+179       3   61      density 0 
+180       3   62      density 0 
+181       4    5      density 0 
+182       4    6      density 0 
+183       4    7      density 0 
+184       4    8      density 0 
+185       4    9      density 0 
+186       4   10      density 0 
+187       4   11      density 0 
+188       4   12      density 0 
+189       4   13      density 0 
+190       4   14      density 0 
+191       4   15      density 0 
+192       4   16      density 0 
+193       4   17      density 0 
+194       4   18      density 0 
+195       4   19      density 0 
+196       4   20      density 0 
+197       4   21      density 0 
+198       4   22      density 0 
+199       4   23      density 0 
+200       4   24      density 0 
+201       4   25      density 0 
+202       4   26      density 0 
+203       4   27      density 0 
+204       4   28      density 0 
+205       4   29      density 0 
+206       4   30      density 0 
+207       4   31      density 0 
+208       4   32      density 0 
+209       4   33      density 0 
+210       4   34      density 0 
+211       4   35      density 0 
+212       4   36      density 0 
+213       4   37      density 0 
+214       4   38      density 0 
+215       4   39      density 0 
+216       4   40      density 0 
+217       4   41      density 0 
+218       4   42      density 0 
+219       4   43      density 0 
+220       4   44      density 0 
+221       4   45      density 0 
+222       4   46      density 0 
+223       4   47      density 0 
+224       4   48      density 0 
+225       4   49      density 0 
+226       4   50      density 0 
+227       4   51      density 0 
+228       4   52      density 0 
+229       4   53      density 0 
+230       4   54      density 0 
+231       4   55      density 0 
+232       4   56      density 0 
+233       4   57      density 0 
+234       4   58      density 0 
+235       4   59      density 0 
+236       4   60      density 0 
+237       4   61      density 0 
+238       4   62      density 0 
+239       5    6      density 0 
+240       5    7      density 0 
+241       5    8      density 0 
+242       5    9      density 0 
+243       5   10      density 0 
+244       5   11      density 0 
+245       5   12      density 0 
+246       5   13      density 0 
+247       5   14      density 0 
+248       5   15      density 0 
+249       5   16      density 0 
+250       5   17      density 0 
+251       5   18      density 0 
+252       5   19      density 0 
+253       5   20      density 0 
+254       5   21      density 0 
+255       5   22      density 0 
+256       5   23      density 0 
+257       5   24      density 0 
+258       5   25      density 0 
+259       5   26      density 0 
+260       5   27      density 0 
+261       5   28      density 0 
+262       5   29      density 0 
+263       5   30      density 0 
+264       5   31      density 0 
+265       5   32      density 0 
+266       5   33      density 0 
+267       5   34      density 0 
+268       5   35      density 0 
+269       5   36      density 0 
+270       5   37      density 0 
+271       5   38      density 0 
+272       5   39      density 0 
+273       5   40      density 0 
+274       5   41      density 0 
+275       5   42      density 0 
+276       5   43      density 0 
+277       5   44      density 0 
+278       5   45      density 0 
+279       5   46      density 0 
+280       5   47      density 0 
+281       5   48      density 0 
+282       5   49      density 0 
+283       5   50      density 0 
+284       5   51      density 0 
+285       5   52      density 0 
+286       5   53      density 0 
+287       5   54      density 0 
+288       5   55      density 0 
+289       5   56      density 0 
+290       5   57      density 0 
+291       5   58      density 0 
+292       5   59      density 0 
+293       5   60      density 0 
+294       5   61      density 0 
+295       5   62      density 0 
+296       6    7      density 0 
+297       6    8      density 0 
+298       6    9      density 0 
+299       6   10      density 0 
+300       6   11      density 0 
+301       6   12      density 0 
+302       6   13      density 0 
+303       6   14      density 0 
+304       6   15      density 0 
+305       6   16      density 0 
+306       6   17      density 0 
+307       6   18      density 0 
+308       6   19      density 0 
+309       6   20      density 0 
+310       6   21      density 0 
+311       6   22      density 0 
+312       6   23      density 0 
+313       6   24      density 0 
+314       6   25      density 0 
+315       6   26      density 0 
+316       6   27      density 0 
+317       6   28      density 0 
+318       6   29      density 0 
+319       6   30      density 0 
+320       6   31      density 0 
+321       6   32      density 0 
+322       6   33      density 0 
+323       6   34      density 0 
+324       6   35      density 0 
+325       6   36      density 0 
+326       6   37      density 0 
+327       6   38      density 0 
+328       6   39      density 0 
+329       6   40      density 0 
+330       6   41      density 0 
+331       6   42      density 0 
+332       6   43      density 0 
+333       6   44      density 0 
+334       6   45      density 0 
+335       6   46      density 0 
+336       6   47      density 0 
+337       6   48      density 0 
+338       6   49      density 0 
+339       6   50      density 0 
+340       6   51      density 0 
+341       6   52      density 0 
+342       6   53      density 0 
+343       6   54      density 0 
+344       6   55      density 0 
+345       6   56      density 0 
+346       6   57      density 0 
+347       6   58      density 0 
+348       6   59      density 0 
+349       6   60      density 0 
+350       6   61      density 0 
+351       6   62      density 0 
+352       7    8      density 0 
+353       7    9      density 0 
+354       7   10      density 0 
+355       7   11      density 0 
+356       7   12      density 0 
+357       7   13      density 0 
+358       7   14      density 0 
+359       7   15      density 0 
+360       7   16      density 0 
+361       7   17      density 0 
+362       7   18      density 0 
+363       7   19      density 0 
+364       7   20      density 0 
+365       7   21      density 0 
+366       7   22      density 0 
+367       7   23      density 0 
+368       7   24      density 0 
+369       7   25      density 0 
+370       7   26      density 0 
+371       7   27      density 0 
+372       7   28      density 0 
+373       7   29      density 0 
+374       7   30      density 0 
+375       7   31      density 0 
+376       7   32      density 0 
+377       7   33      density 0 
+378       7   34      density 0 
+379       7   35      density 0 
+380       7   36      density 0 
+381       7   37      density 0 
+382       7   38      density 0 
+383       7   39      density 0 
+384       7   40      density 0 
+385       7   41      density 0 
+386       7   42      density 0 
+387       7   43      density 0 
+388       7   44      density 0 
+389       7   45      density 0 
+390       7   46      density 0 
+391       7   47      density 0 
+392       7   48      density 0 
+393       7   49      density 0 
+394       7   50      density 0 
+395       7   51      density 0 
+396       7   52      density 0 
+397       7   53      density 0 
+398       7   54      density 0 
+399       7   55      density 0 
+400       7   56      density 0 
+401       7   57      density 0 
+402       7   58      density 0 
+403       7   59      density 0 
+404       7   60      density 0 
+405       7   61      density 0 
+406       7   62      density 0 
+407       8    9      density 0 
+408       8   10      density 0 
+409       8   11      density 0 
+410       8   12      density 0 
+411       8   13      density 0 
+412       8   14      density 0 
+413       8   15      density 0 
+414       8   16      density 0 
+415       8   17      density 0 
+416       8   18      density 0 
+417       8   19      density 0 
+418       8   20      density 0 
+419       8   21      density 0 
+420       8   22      density 0 
+421       8   23      density 0 
+422       8   24      density 0 
+423       8   25      density 0 
+424       8   26      density 0 
+425       8   27      density 0 
+426       8   28      density 0 
+427       8   29      density 0 
+428       8   30      density 0 
+429       8   31      density 0 
+430       8   32      density 0 
+431       8   33      density 0 
+432       8   34      density 0 
+433       8   35      density 0 
+434       8   36      density 0 
+435       8   37      density 0 
+436       8   38      density 0 
+437       8   39      density 0 
+438       8   40      density 0 
+439       8   41      density 0 
+440       8   42      density 0 
+441       8   43      density 0 
+442       8   44      density 0 
+443       8   45      density 0 
+444       8   46      density 0 
+445       8   47      density 0 
+446       8   48      density 0 
+447       8   49      density 0 
+448       8   50      density 0 
+449       8   51      density 0 
+450       8   52      density 0 
+451       8   53      density 0 
+452       8   54      density 0 
+453       8   55      density 0 
+454       8   56      density 0 
+455       8   57      density 0 
+456       8   58      density 0 
+457       8   59      density 0 
+458       8   60      density 0 
+459       8   61      density 0 
+460       8   62      density 0 
+461       9   10      density 0 
+462       9   11      density 0 
+463       9   12      density 0 
+464       9   13      density 0 
+465       9   14      density 0 
+466       9   15      density 0 
+467       9   16      density 0 
+468       9   17      density 0 
+469       9   18      density 0 
+470       9   19      density 0 
+471       9   20      density 0 
+472       9   21      density 0 
+473       9   22      density 0 
+474       9   23      density 0 
+475       9   24      density 0 
+476       9   25      density 0 
+477       9   26      density 0 
+478       9   27      density 0 
+479       9   28      density 0 
+480       9   29      density 0 
+481       9   30      density 0 
+482       9   31      density 0 
+483       9   32      density 0 
+484       9   33      density 0 
+485       9   34      density 0 
+486       9   35      density 0 
+487       9   36      density 0 
+488       9   37      density 0 
+489       9   38      density 0 
+490       9   39      density 0 
+491       9   40      density 0 
+492       9   41      density 0 
+493       9   42      density 0 
+494       9   43      density 0 
+495       9   44      density 0 
+496       9   45      density 0 
+497       9   46      density 0 
+498       9   47      density 0 
+499       9   48      density 0 
+500       9   49      density 0 
+501       9   50      density 0 
+502       9   51      density 0 
+503       9   52      density 0 
+504       9   53      density 0 
+505       9   54      density 0 
+506       9   55      density 0 
+507       9   56      density 0 
+508       9   57      density 0 
+509       9   58      density 0 
+510       9   59      density 0 
+511       9   60      density 0 
+512       9   61      density 0 
+513       9   62      density 0 
+514      10   11      density 0 
+515      10   12      density 0 
+516      10   13      density 0 
+517      10   14      density 0 
+518      10   15      density 0 
+519      10   16      density 0 
+520      10   17      density 0 
+521      10   18      density 0 
+522      10   19      density 0 
+523      10   20      density 0 
+524      10   21      density 0 
+525      10   22      density 0 
+526      10   23      density 0 
+527      10   24      density 0 
+528      10   25      density 0 
+529      10   26      density 0 
+530      10   27      density 0 
+531      10   28      density 0 
+532      10   29      density 0 
+533      10   30      density 0 
+534      10   31      density 0 
+535      10   32      density 0 
+536      10   33      density 0 
+537      10   34      density 0 
+538      10   35      density 0 
+539      10   36      density 0 
+540      10   37      density 0 
+541      10   38      density 0 
+542      10   39      density 0 
+543      10   40      density 0 
+544      10   41      density 0 
+545      10   42      density 0 
+546      10   43      density 0 
+547      10   44      density 0 
+548      10   45      density 0 
+549      10   46      density 0 
+550      10   47      density 0 
+551      10   48      density 0 
+552      10   49      density 0 
+553      10   50      density 0 
+554      10   51      density 0 
+555      10   52      density 0 
+556      10   53      density 0 
+557      10   54      density 0 
+558      10   55      density 0 
+559      10   56      density 0 
+560      10   57      density 0 
+561      10   58      density 0 
+562      10   59      density 0 
+563      10   60      density 0 
+564      10   61      density 0 
+565      10   62      density 0 
+566      11   12      density 0 
+567      11   13      density 0 
+568      11   14      density 0 
+569      11   15      density 0 
+570      11   16      density 0 
+571      11   17      density 0 
+572      11   18      density 0 
+573      11   19      density 0 
+574      11   20      density 0 
+575      11   21      density 0 
+576      11   22      density 0 
+577      11   23      density 0 
+578      11   24      density 0 
+579      11   25      density 0 
+580      11   26      density 0 
+581      11   27      density 0 
+582      11   28      density 0 
+583      11   29      density 0 
+584      11   30      density 0 
+585      11   31      density 0 
+586      11   32      density 0 
+587      11   33      density 0 
+588      11   34      density 0 
+589      11   35      density 0 
+590      11   36      density 0 
+591      11   37      density 0 
+592      11   38      density 0 
+593      11   39      density 0 
+594      11   40      density 0 
+595      11   41      density 0 
+596      11   42      density 0 
+597      11   43      density 0 
+598      11   44      density 0 
+599      11   45      density 0 
+600      11   46      density 0 
+601      11   47      density 0 
+602      11   48      density 0 
+603      11   49      density 0 
+604      11   50      density 0 
+605      11   51      density 0 
+606      11   52      density 0 
+607      11   53      density 0 
+608      11   54      density 0 
+609      11   55      density 0 
+610      11   56      density 0 
+611      11   57      density 0 
+612      11   58      density 0 
+613      11   59      density 0 
+614      11   60      density 0 
+615      11   61      density 0 
+616      11   62      density 0 
+617      12   13      density 0 
+618      12   14      density 0 
+619      12   15      density 0 
+620      12   16      density 0 
+621      12   17      density 0 
+622      12   18      density 0 
+623      12   19      density 0 
+624      12   20      density 0 
+625      12   21      density 0 
+626      12   22      density 0 
+627      12   23      density 0 
+628      12   24      density 0 
+629      12   25      density 0 
+630      12   26      density 0 
+631      12   27      density 0 
+632      12   28      density 0 
+633      12   29      density 0 
+634      12   30      density 0 
+635      12   31      density 0 
+636      12   32      density 0 
+637      12   33      density 0 
+638      12   34      density 0 
+639      12   35      density 0 
+640      12   36      density 0 
+641      12   37      density 0 
+642      12   38      density 0 
+643      12   39      density 0 
+644      12   40      density 0 
+645      12   41      density 0 
+646      12   42      density 0 
+647      12   43      density 0 
+648      12   44      density 0 
+649      12   45      density 0 
+650      12   46      density 0 
+651      12   47      density 0 
+652      12   48      density 0 
+653      12   49      density 0 
+654      12   50      density 0 
+655      12   51      density 0 
+656      12   52      density 0 
+657      12   53      density 0 
+658      12   54      density 0 
+659      12   55      density 0 
+660      12   56      density 0 
+661      12   57      density 0 
+662      12   58      density 0 
+663      12   59      density 0 
+664      12   60      density 0 
+665      12   61      density 0 
+666      12   62      density 0 
+667      13   14      density 0 
+668      13   15      density 0 
+669      13   16      density 0 
+670      13   17      density 0 
+671      13   18      density 0 
+672      13   19      density 0 
+673      13   20      density 0 
+674      13   21      density 0 
+675      13   22      density 0 
+676      13   23      density 0 
+677      13   24      density 0 
+678      13   25      density 0 
+679      13   26      density 0 
+680      13   27      density 0 
+681      13   28      density 0 
+682      13   29      density 0 
+683      13   30      density 0 
+684      13   31      density 0 
+685      13   32      density 0 
+686      13   33      density 0 
+687      13   34      density 0 
+688      13   35      density 0 
+689      13   36      density 0 
+690      13   37      density 0 
+691      13   38      density 0 
+692      13   39      density 0 
+693      13   40      density 0 
+694      13   41      density 0 
+695      13   42      density 0 
+696      13   43      density 0 
+697      13   44      density 0 
+698      13   45      density 0 
+699      13   46      density 0 
+700      13   47      density 0 
+701      13   48      density 0 
+702      13   49      density 0 
+703      13   50      density 0 
+704      13   51      density 0 
+705      13   52      density 0 
+706      13   53      density 0 
+707      13   54      density 0 
+708      13   55      density 0 
+709      13   56      density 0 
+710      13   57      density 0 
+711      13   58      density 0 
+712      13   59      density 0 
+713      13   60      density 0 
+714      13   61      density 0 
+715      13   62      density 0 
+716      14   15      density 0 
+717      14   16      density 0 
+718      14   17      density 0 
+719      14   18      density 0 
+720      14   19      density 0 
+721      14   20      density 0 
+722      14   21      density 0 
+723      14   22      density 0 
+724      14   23      density 0 
+725      14   24      density 0 
+726      14   25      density 0 
+727      14   26      density 0 
+728      14   27      density 0 
+729      14   28      density 0 
+730      14   29      density 0 
+731      14   30      density 0 
+732      14   31      density 0 
+733      14   32      density 0 
+734      14   33      density 0 
+735      14   34      density 0 
+736      14   35      density 0 
+737      14   36      density 0 
+738      14   37      density 0 
+739      14   38      density 0 
+740      14   39      density 0 
+741      14   40      density 0 
+742      14   41      density 0 
+743      14   42      density 0 
+744      14   43      density 0 
+745      14   44      density 0 
+746      14   45      density 0 
+747      14   46      density 0 
+748      14   47      density 0 
+749      14   48      density 0 
+750      14   49      density 0 
+751      14   50      density 0 
+752      14   51      density 0 
+753      14   52      density 0 
+754      14   53      density 0 
+755      14   54      density 0 
+756      14   55      density 0 
+757      14   56      density 0 
+758      14   57      density 0 
+759      14   58      density 0 
+760      14   59      density 0 
+761      14   60      density 0 
+762      14   61      density 0 
+763      14   62      density 0 
+764      15   16      density 0 
+765      15   17      density 0 
+766      15   18      density 0 
+767      15   19      density 0 
+768      15   20      density 0 
+769      15   21      density 0 
+770      15   22      density 0 
+771      15   23      density 0 
+772      15   24      density 0 
+773      15   25      density 0 
+774      15   26      density 0 
+775      15   27      density 0 
+776      15   28      density 0 
+777      15   29      density 0 
+778      15   30      density 0 
+779      15   31      density 0 
+780      15   32      density 0 
+781      15   33      density 0 
+782      15   34      density 0 
+783      15   35      density 0 
+784      15   36      density 0 
+785      15   37      density 0 
+786      15   38      density 0 
+787      15   39      density 0 
+788      15   40      density 0 
+789      15   41      density 0 
+790      15   42      density 0 
+791      15   43      density 0 
+792      15   44      density 0 
+793      15   45      density 0 
+794      15   46      density 0 
+795      15   47      density 0 
+796      15   48      density 0 
+797      15   49      density 0 
+798      15   50      density 0 
+799      15   51      density 0 
+800      15   52      density 0 
+801      15   53      density 0 
+802      15   54      density 0 
+803      15   55      density 0 
+804      15   56      density 0 
+805      15   57      density 0 
+806      15   58      density 0 
+807      15   59      density 0 
+808      15   60      density 0 
+809      15   61      density 0 
+810      15   62      density 0 
+811      16   17      density 0 
+812      16   18      density 0 
+813      16   19      density 0 
+814      16   20      density 0 
+815      16   21      density 0 
+816      16   22      density 0 
+817      16   23      density 0 
+818      16   24      density 0 
+819      16   25      density 0 
+820      16   26      density 0 
+821      16   27      density 0 
+822      16   28      density 0 
+823      16   29      density 0 
+824      16   30      density 0 
+825      16   31      density 0 
+826      16   32      density 0 
+827      16   33      density 0 
+828      16   34      density 0 
+829      16   35      density 0 
+830      16   36      density 0 
+831      16   37      density 0 
+832      16   38      density 0 
+833      16   39      density 0 
+834      16   40      density 0 
+835      16   41      density 0 
+836      16   42      density 0 
+837      16   43      density 0 
+838      16   44      density 0 
+839      16   45      density 0 
+840      16   46      density 0 
+841      16   47      density 0 
+842      16   48      density 0 
+843      16   49      density 0 
+844      16   50      density 0 
+845      16   51      density 0 
+846      16   52      density 0 
+847      16   53      density 0 
+848      16   54      density 0 
+849      16   55      density 0 
+850      16   56      density 0 
+851      16   57      density 0 
+852      16   58      density 0 
+853      16   59      density 0 
+854      16   60      density 0 
+855      16   61      density 0 
+856      16   62      density 0 
+857      17   18      density 0 
+858      17   19      density 0 
+859      17   20      density 0 
+860      17   21      density 0 
+861      17   22      density 0 
+862      17   23      density 0 
+863      17   24      density 0 
+864      17   25      density 0 
+865      17   26      density 0 
+866      17   27      density 0 
+867      17   28      density 0 
+868      17   29      density 0 
+869      17   30      density 0 
+870      17   31      density 0 
+871      17   32      density 0 
+872      17   33      density 0 
+873      17   34      density 0 
+874      17   35      density 0 
+875      17   36      density 0 
+876      17   37      density 0 
+877      17   38      density 0 
+878      17   39      density 0 
+879      17   40      density 0 
+880      17   41      density 0 
+881      17   42      density 0 
+882      17   43      density 0 
+883      17   44      density 0 
+884      17   45      density 0 
+885      17   46      density 0 
+886      17   47      density 0 
+887      17   48      density 0 
+888      17   49      density 0 
+889      17   50      density 0 
+890      17   51      density 0 
+891      17   52      density 0 
+892      17   53      density 0 
+893      17   54      density 0 
+894      17   55      density 0 
+895      17   56      density 0 
+896      17   57      density 0 
+897      17   58      density 0 
+898      17   59      density 0 
+899      17   60      density 0 
+900      17   61      density 0 
+901      17   62      density 0 
+902      18   19      density 0 
+903      18   20      density 0 
+904      18   21      density 0 
+905      18   22      density 0 
+906      18   23      density 0 
+907      18   24      density 0 
+908      18   25      density 0 
+909      18   26      density 0 
+910      18   27      density 0 
+911      18   28      density 0 
+912      18   29      density 0 
+913      18   30      density 0 
+914      18   31      density 0 
+915      18   32      density 0 
+916      18   33      density 0 
+917      18   34      density 0 
+918      18   35      density 0 
+919      18   36      density 0 
+920      18   37      density 0 
+921      18   38      density 0 
+922      18   39      density 0 
+923      18   40      density 0 
+924      18   41      density 0 
+925      18   42      density 0 
+926      18   43      density 0 
+927      18   44      density 0 
+928      18   45      density 0 
+929      18   46      density 0 
+930      18   47      density 0 
+931      18   48      density 0 
+932      18   49      density 0 
+933      18   50      density 0 
+934      18   51      density 0 
+935      18   52      density 0 
+936      18   53      density 0 
+937      18   54      density 0 
+938      18   55      density 0 
+939      18   56      density 0 
+940      18   57      density 0 
+941      18   58      density 0 
+942      18   59      density 0 
+943      18   60      density 0 
+944      18   61      density 0 
+945      18   62      density 0 
+946      19   20      density 0 
+947      19   21      density 0 
+948      19   22      density 0 
+949      19   23      density 0 
+950      19   24      density 0 
+951      19   25      density 0 
+952      19   26      density 0 
+953      19   27      density 0 
+954      19   28      density 0 
+955      19   29      density 0 
+956      19   30      density 0 
+957      19   31      density 0 
+958      19   32      density 0 
+959      19   33      density 0 
+960      19   34      density 0 
+961      19   35      density 0 
+962      19   36      density 0 
+963      19   37      density 0 
+964      19   38      density 0 
+965      19   39      density 0 
+966      19   40      density 0 
+967      19   41      density 0 
+968      19   42      density 0 
+969      19   43      density 0 
+970      19   44      density 0 
+971      19   45      density 0 
+972      19   46      density 0 
+973      19   47      density 0 
+974      19   48      density 0 
+975      19   49      density 0 
+976      19   50      density 0 
+977      19   51      density 0 
+978      19   52      density 0 
+979      19   53      density 0 
+980      19   54      density 0 
+981      19   55      density 0 
+982      19   56      density 0 
+983      19   57      density 0 
+984      19   58      density 0 
+985      19   59      density 0 
+986      19   60      density 0 
+987      19   61      density 0 
+988      19   62      density 0 
+989      20   21      density 0 
+990      20   22      density 0 
+991      20   23      density 0 
+992      20   24      density 0 
+993      20   25      density 0 
+994      20   26      density 0 
+995      20   27      density 0 
+996      20   28      density 0 
+997      20   29      density 0 
+998      20   30      density 0 
+999      20   31      density 0 
+1000      20   32      density 0 
+1001      20   33      density 0 
+1002      20   34      density 0 
+1003      20   35      density 0 
+1004      20   36      density 0 
+1005      20   37      density 0 
+1006      20   38      density 0 
+1007      20   39      density 0 
+1008      20   40      density 0 
+1009      20   41      density 0 
+1010      20   42      density 0 
+1011      20   43      density 0 
+1012      20   44      density 0 
+1013      20   45      density 0 
+1014      20   46      density 0 
+1015      20   47      density 0 
+1016      20   48      density 0 
+1017      20   49      density 0 
+1018      20   50      density 0 
+1019      20   51      density 0 
+1020      20   52      density 0 
+1021      20   53      density 0 
+1022      20   54      density 0 
+1023      20   55      density 0 
+1024      20   56      density 0 
+1025      20   57      density 0 
+1026      20   58      density 0 
+1027      20   59      density 0 
+1028      20   60      density 0 
+1029      20   61      density 0 
+1030      20   62      density 0 
+1031      21   22      density 0 
+1032      21   23      density 0 
+1033      21   24      density 0 
+1034      21   25      density 0 
+1035      21   26      density 0 
+1036      21   27      density 0 
+1037      21   28      density 0 
+1038      21   29      density 0 
+1039      21   30      density 0 
+1040      21   31      density 0 
+1041      21   32      density 0 
+1042      21   33      density 0 
+1043      21   34      density 0 
+1044      21   35      density 0 
+1045      21   36      density 0 
+1046      21   37      density 0 
+1047      21   38      density 0 
+1048      21   39      density 0 
+1049      21   40      density 0 
+1050      21   41      density 0 
+1051      21   42      density 0 
+1052      21   43      density 0 
+1053      21   44      density 0 
+1054      21   45      density 0 
+1055      21   46      density 0 
+1056      21   47      density 0 
+1057      21   48      density 0 
+1058      21   49      density 0 
+1059      21   50      density 0 
+1060      21   51      density 0 
+1061      21   52      density 0 
+1062      21   53      density 0 
+1063      21   54      density 0 
+1064      21   55      density 0 
+1065      21   56      density 0 
+1066      21   57      density 0 
+1067      21   58      density 0 
+1068      21   59      density 0 
+1069      21   60      density 0 
+1070      21   61      density 0 
+1071      21   62      density 0 
+1072      22   23      density 0 
+1073      22   24      density 0 
+1074      22   25      density 0 
+1075      22   26      density 0 
+1076      22   27      density 0 
+1077      22   28      density 0 
+1078      22   29      density 0 
+1079      22   30      density 0 
+1080      22   31      density 0 
+1081      22   32      density 0 
+1082      22   33      density 0 
+1083      22   34      density 0 
+1084      22   35      density 0 
+1085      22   36      density 0 
+1086      22   37      density 0 
+1087      22   38      density 0 
+1088      22   39      density 0 
+1089      22   40      density 0 
+1090      22   41      density 0 
+1091      22   42      density 0 
+1092      22   43      density 0 
+1093      22   44      density 0 
+1094      22   45      density 0 
+1095      22   46      density 0 
+1096      22   47      density 0 
+1097      22   48      density 0 
+1098      22   49      density 0 
+1099      22   50      density 0 
+1100      22   51      density 0 
+1101      22   52      density 0 
+1102      22   53      density 0 
+1103      22   54      density 0 
+1104      22   55      density 0 
+1105      22   56      density 0 
+1106      22   57      density 0 
+1107      22   58      density 0 
+1108      22   59      density 0 
+1109      22   60      density 0 
+1110      22   61      density 0 
+1111      22   62      density 0 
+1112      23   24      density 0 
+1113      23   25      density 0 
+1114      23   26      density 0 
+1115      23   27      density 0 
+1116      23   28      density 0 
+1117      23   29      density 0 
+1118      23   30      density 0 
+1119      23   31      density 0 
+1120      23   32      density 0 
+1121      23   33      density 0 
+1122      23   34      density 0 
+1123      23   35      density 0 
+1124      23   36      density 0 
+1125      23   37      density 0 
+1126      23   38      density 0 
+1127      23   39      density 0 
+1128      23   40      density 0 
+1129      23   41      density 0 
+1130      23   42      density 0 
+1131      23   43      density 0 
+1132      23   44      density 0 
+1133      23   45      density 0 
+1134      23   46      density 0 
+1135      23   47      density 0 
+1136      23   48      density 0 
+1137      23   49      density 0 
+1138      23   50      density 0 
+1139      23   51      density 0 
+1140      23   52      density 0 
+1141      23   53      density 0 
+1142      23   54      density 0 
+1143      23   55      density 0 
+1144      23   56      density 0 
+1145      23   57      density 0 
+1146      23   58      density 0 
+1147      23   59      density 0 
+1148      23   60      density 0 
+1149      23   61      density 0 
+1150      23   62      density 0 
+1151      24   25      density 0 
+1152      24   26      density 0 
+1153      24   27      density 0 
+1154      24   28      density 0 
+1155      24   29      density 0 
+1156      24   30      density 0 
+1157      24   31      density 0 
+1158      24   32      density 0 
+1159      24   33      density 0 
+1160      24   34      density 0 
+1161      24   35      density 0 
+1162      24   36      density 0 
+1163      24   37      density 0 
+1164      24   38      density 0 
+1165      24   39      density 0 
+1166      24   40      density 0 
+1167      24   41      density 0 
+1168      24   42      density 0 
+1169      24   43      density 0 
+1170      24   44      density 0 
+1171      24   45      density 0 
+1172      24   46      density 0 
+1173      24   47      density 0 
+1174      24   48      density 0 
+1175      24   49      density 0 
+1176      24   50      density 0 
+1177      24   51      density 0 
+1178      24   52      density 0 
+1179      24   53      density 0 
+1180      24   54      density 0 
+1181      24   55      density 0 
+1182      24   56      density 0 
+1183      24   57      density 0 
+1184      24   58      density 0 
+1185      24   59      density 0 
+1186      24   60      density 0 
+1187      24   61      density 0 
+1188      24   62      density 0 
+1189      25   26      density 0 
+1190      25   27      density 0 
+1191      25   28      density 0 
+1192      25   29      density 0 
+1193      25   30      density 0 
+1194      25   31      density 0 
+1195      25   32      density 0 
+1196      25   33      density 0 
+1197      25   34      density 0 
+1198      25   35      density 0 
+1199      25   36      density 0 
+1200      25   37      density 0 
+1201      25   38      density 0 
+1202      25   39      density 0 
+1203      25   40      density 0 
+1204      25   41      density 0 
+1205      25   42      density 0 
+1206      25   43      density 0 
+1207      25   44      density 0 
+1208      25   45      density 0 
+1209      25   46      density 0 
+1210      25   47      density 0 
+1211      25   48      density 0 
+1212      25   49      density 0 
+1213      25   50      density 0 
+1214      25   51      density 0 
+1215      25   52      density 0 
+1216      25   53      density 0 
+1217      25   54      density 0 
+1218      25   55      density 0 
+1219      25   56      density 0 
+1220      25   57      density 0 
+1221      25   58      density 0 
+1222      25   59      density 0 
+1223      25   60      density 0 
+1224      25   61      density 0 
+1225      25   62      density 0 
+1226      26   27      density 0 
+1227      26   28      density 0 
+1228      26   29      density 0 
+1229      26   30      density 0 
+1230      26   31      density 0 
+1231      26   32      density 0 
+1232      26   33      density 0 
+1233      26   34      density 0 
+1234      26   35      density 0 
+1235      26   36      density 0 
+1236      26   37      density 0 
+1237      26   38      density 0 
+1238      26   39      density 0 
+1239      26   40      density 0 
+1240      26   41      density 0 
+1241      26   42      density 0 
+1242      26   43      density 0 
+1243      26   44      density 0 
+1244      26   45      density 0 
+1245      26   46      density 0 
+1246      26   47      density 0 
+1247      26   48      density 0 
+1248      26   49      density 0 
+1249      26   50      density 0 
+1250      26   51      density 0 
+1251      26   52      density 0 
+1252      26   53      density 0 
+1253      26   54      density 0 
+1254      26   55      density 0 
+1255      26   56      density 0 
+1256      26   57      density 0 
+1257      26   58      density 0 
+1258      26   59      density 0 
+1259      26   60      density 0 
+1260      26   61      density 0 
+1261      26   62      density 0 
+1262      27   28      density 0 
+1263      27   29      density 0 
+1264      27   30      density 0 
+1265      27   31      density 0 
+1266      27   32      density 0 
+1267      27   33      density 0 
+1268      27   34      density 0 
+1269      27   35      density 0 
+1270      27   36      density 0 
+1271      27   37      density 0 
+1272      27   38      density 0 
+1273      27   39      density 0 
+1274      27   40      density 0 
+1275      27   41      density 0 
+1276      27   42      density 0 
+1277      27   43      density 0 
+1278      27   44      density 0 
+1279      27   45      density 0 
+1280      27   46      density 0 
+1281      27   47      density 0 
+1282      27   48      density 0 
+1283      27   49      density 0 
+1284      27   50      density 0 
+1285      27   51      density 0 
+1286      27   52      density 0 
+1287      27   53      density 0 
+1288      27   54      density 0 
+1289      27   55      density 0 
+1290      27   56      density 0 
+1291      27   57      density 0 
+1292      27   58      density 0 
+1293      27   59      density 0 
+1294      27   60      density 0 
+1295      27   61      density 0 
+1296      27   62      density 0 
+1297      28   29      density 0 
+1298      28   30      density 0 
+1299      28   31      density 0 
+1300      28   32      density 0 
+1301      28   33      density 0 
+1302      28   34      density 0 
+1303      28   35      density 0 
+1304      28   36      density 0 
+1305      28   37      density 0 
+1306      28   38      density 0 
+1307      28   39      density 0 
+1308      28   40      density 0 
+1309      28   41      density 0 
+1310      28   42      density 0 
+1311      28   43      density 0 
+1312      28   44      density 0 
+1313      28   45      density 0 
+1314      28   46      density 0 
+1315      28   47      density 0 
+1316      28   48      density 0 
+1317      28   49      density 0 
+1318      28   50      density 0 
+1319      28   51      density 0 
+1320      28   52      density 0 
+1321      28   53      density 0 
+1322      28   54      density 0 
+1323      28   55      density 0 
+1324      28   56      density 0 
+1325      28   57      density 0 
+1326      28   58      density 0 
+1327      28   59      density 0 
+1328      28   60      density 0 
+1329      28   61      density 0 
+1330      28   62      density 0 
+1331      29   30      density 0 
+1332      29   31      density 0 
+1333      29   32      density 0 
+1334      29   33      density 0 
+1335      29   34      density 0 
+1336      29   35      density 0 
+1337      29   36      density 0 
+1338      29   37      density 0 
+1339      29   38      density 0 
+1340      29   39      density 0 
+1341      29   40      density 0 
+1342      29   41      density 0 
+1343      29   42      density 0 
+1344      29   43      density 0 
+1345      29   44      density 0 
+1346      29   45      density 0 
+1347      29   46      density 0 
+1348      29   47      density 0 
+1349      29   48      density 0 
+1350      29   49      density 0 
+1351      29   50      density 0 
+1352      29   51      density 0 
+1353      29   52      density 0 
+1354      29   53      density 0 
+1355      29   54      density 0 
+1356      29   55      density 0 
+1357      29   56      density 0 
+1358      29   57      density 0 
+1359      29   58      density 0 
+1360      29   59      density 0 
+1361      29   60      density 0 
+1362      29   61      density 0 
+1363      29   62      density 0 
+1364      30   31      density 0 
+1365      30   32      density 0 
+1366      30   33      density 0 
+1367      30   34      density 0 
+1368      30   35      density 0 
+1369      30   36      density 0 
+1370      30   37      density 0 
+1371      30   38      density 0 
+1372      30   39      density 0 
+1373      30   40      density 0 
+1374      30   41      density 0 
+1375      30   42      density 0 
+1376      30   43      density 0 
+1377      30   44      density 0 
+1378      30   45      density 0 
+1379      30   46      density 0 
+1380      30   47      density 0 
+1381      30   48      density 0 
+1382      30   49      density 0 
+1383      30   50      density 0 
+1384      30   51      density 0 
+1385      30   52      density 0 
+1386      30   53      density 0 
+1387      30   54      density 0 
+1388      30   55      density 0 
+1389      30   56      density 0 
+1390      30   57      density 0 
+1391      30   58      density 0 
+1392      30   59      density 0 
+1393      30   60      density 0 
+1394      30   61      density 0 
+1395      30   62      density 0 
+1396      31   32      density 0 
+1397      31   33      density 0 
+1398      31   34      density 0 
+1399      31   35      density 0 
+1400      31   36      density 0 
+1401      31   37      density 0 
+1402      31   38      density 0 
+1403      31   39      density 0 
+1404      31   40      density 0 
+1405      31   41      density 0 
+1406      31   42      density 0 
+1407      31   43      density 0 
+1408      31   44      density 0 
+1409      31   45      density 0 
+1410      31   46      density 0 
+1411      31   47      density 0 
+1412      31   48      density 0 
+1413      31   49      density 0 
+1414      31   50      density 0 
+1415      31   51      density 0 
+1416      31   52      density 0 
+1417      31   53      density 0 
+1418      31   54      density 0 
+1419      31   55      density 0 
+1420      31   56      density 0 
+1421      31   57      density 0 
+1422      31   58      density 0 
+1423      31   59      density 0 
+1424      31   60      density 0 
+1425      31   61      density 0 
+1426      31   62      density 0 
+1427      32   33      density 0 
+1428      32   34      density 0 
+1429      32   35      density 0 
+1430      32   36      density 0 
+1431      32   37      density 0 
+1432      32   38      density 0 
+1433      32   39      density 0 
+1434      32   40      density 0 
+1435      32   41      density 0 
+1436      32   42      density 0 
+1437      32   43      density 0 
+1438      32   44      density 0 
+1439      32   45      density 0 
+1440      32   46      density 0 
+1441      32   47      density 0 
+1442      32   48      density 0 
+1443      32   49      density 0 
+1444      32   50      density 0 
+1445      32   51      density 0 
+1446      32   52      density 0 
+1447      32   53      density 0 
+1448      32   54      density 0 
+1449      32   55      density 0 
+1450      32   56      density 0 
+1451      32   57      density 0 
+1452      32   58      density 0 
+1453      32   59      density 0 
+1454      32   60      density 0 
+1455      32   61      density 0 
+1456      32   62      density 0 
+1457      33   34      density 0 
+1458      33   35      density 0 
+1459      33   36      density 0 
+1460      33   37      density 0 
+1461      33   38      density 0 
+1462      33   39      density 0 
+1463      33   40      density 0 
+1464      33   41      density 0 
+1465      33   42      density 0 
+1466      33   43      density 0 
+1467      33   44      density 0 
+1468      33   45      density 0 
+1469      33   46      density 0 
+1470      33   47      density 0 
+1471      33   48      density 0 
+1472      33   49      density 0 
+1473      33   50      density 0 
+1474      33   51      density 0 
+1475      33   52      density 0 
+1476      33   53      density 0 
+1477      33   54      density 0 
+1478      33   55      density 0 
+1479      33   56      density 0 
+1480      33   57      density 0 
+1481      33   58      density 0 
+1482      33   59      density 0 
+1483      33   60      density 0 
+1484      33   61      density 0 
+1485      33   62      density 0 
+1486      34   35      density 0 
+1487      34   36      density 0 
+1488      34   37      density 0 
+1489      34   38      density 0 
+1490      34   39      density 0 
+1491      34   40      density 0 
+1492      34   41      density 0 
+1493      34   42      density 0 
+1494      34   43      density 0 
+1495      34   44      density 0 
+1496      34   45      density 0 
+1497      34   46      density 0 
+1498      34   47      density 0 
+1499      34   48      density 0 
+1500      34   49      density 0 
+1501      34   50      density 0 
+1502      34   51      density 0 
+1503      34   52      density 0 
+1504      34   53      density 0 
+1505      34   54      density 0 
+1506      34   55      density 0 
+1507      34   56      density 0 
+1508      34   57      density 0 
+1509      34   58      density 0 
+1510      34   59      density 0 
+1511      34   60      density 0 
+1512      34   61      density 0 
+1513      34   62      density 0 
+1514      35   36      density 0 
+1515      35   37      density 0 
+1516      35   38      density 0 
+1517      35   39      density 0 
+1518      35   40      density 0 
+1519      35   41      density 0 
+1520      35   42      density 0 
+1521      35   43      density 0 
+1522      35   44      density 0 
+1523      35   45      density 0 
+1524      35   46      density 0 
+1525      35   47      density 0 
+1526      35   48      density 0 
+1527      35   49      density 0 
+1528      35   50      density 0 
+1529      35   51      density 0 
+1530      35   52      density 0 
+1531      35   53      density 0 
+1532      35   54      density 0 
+1533      35   55      density 0 
+1534      35   56      density 0 
+1535      35   57      density 0 
+1536      35   58      density 0 
+1537      35   59      density 0 
+1538      35   60      density 0 
+1539      35   61      density 0 
+1540      35   62      density 0 
+1541      36   37      density 0 
+1542      36   38      density 0 
+1543      36   39      density 0 
+1544      36   40      density 0 
+1545      36   41      density 0 
+1546      36   42      density 0 
+1547      36   43      density 0 
+1548      36   44      density 0 
+1549      36   45      density 0 
+1550      36   46      density 0 
+1551      36   47      density 0 
+1552      36   48      density 0 
+1553      36   49      density 0 
+1554      36   50      density 0 
+1555      36   51      density 0 
+1556      36   52      density 0 
+1557      36   53      density 0 
+1558      36   54      density 0 
+1559      36   55      density 0 
+1560      36   56      density 0 
+1561      36   57      density 0 
+1562      36   58      density 0 
+1563      36   59      density 0 
+1564      36   60      density 0 
+1565      36   61      density 0 
+1566      36   62      density 0 
+1567      37   38      density 0 
+1568      37   39      density 0 
+1569      37   40      density 0 
+1570      37   41      density 0 
+1571      37   42      density 0 
+1572      37   43      density 0 
+1573      37   44      density 0 
+1574      37   45      density 0 
+1575      37   46      density 0 
+1576      37   47      density 0 
+1577      37   48      density 0 
+1578      37   49      density 0 
+1579      37   50      density 0 
+1580      37   51      density 0 
+1581      37   52      density 0 
+1582      37   53      density 0 
+1583      37   54      density 0 
+1584      37   55      density 0 
+1585      37   56      density 0 
+1586      37   57      density 0 
+1587      37   58      density 0 
+1588      37   59      density 0 
+1589      37   60      density 0 
+1590      37   61      density 0 
+1591      37   62      density 0 
+1592      38   39      density 0 
+1593      38   40      density 0 
+1594      38   41      density 0 
+1595      38   42      density 0 
+1596      38   43      density 0 
+1597      38   44      density 0 
+1598      38   45      density 0 
+1599      38   46      density 0 
+1600      38   47      density 0 
+1601      38   48      density 0 
+1602      38   49      density 0 
+1603      38   50      density 0 
+1604      38   51      density 0 
+1605      38   52      density 0 
+1606      38   53      density 0 
+1607      38   54      density 0 
+1608      38   55      density 0 
+1609      38   56      density 0 
+1610      38   57      density 0 
+1611      38   58      density 0 
+1612      38   59      density 0 
+1613      38   60      density 0 
+1614      38   61      density 0 
+1615      38   62      density 0 
+1616      39   40      density 0 
+1617      39   41      density 0 
+1618      39   42      density 0 
+1619      39   43      density 0 
+1620      39   44      density 0 
+1621      39   45      density 0 
+1622      39   46      density 0 
+1623      39   47      density 0 
+1624      39   48      density 0 
+1625      39   49      density 0 
+1626      39   50      density 0 
+1627      39   51      density 0 
+1628      39   52      density 0 
+1629      39   53      density 0 
+1630      39   54      density 0 
+1631      39   55      density 0 
+1632      39   56      density 0 
+1633      39   57      density 0 
+1634      39   58      density 0 
+1635      39   59      density 0 
+1636      39   60      density 0 
+1637      39   61      density 0 
+1638      39   62      density 0 
+1639      40   41      density 0 
+1640      40   42      density 0 
+1641      40   43      density 0 
+1642      40   44      density 0 
+1643      40   45      density 0 
+1644      40   46      density 0 
+1645      40   47      density 0 
+1646      40   48      density 0 
+1647      40   49      density 0 
+1648      40   50      density 0 
+1649      40   51      density 0 
+1650      40   52      density 0 
+1651      40   53      density 0 
+1652      40   54      density 0 
+1653      40   55      density 0 
+1654      40   56      density 0 
+1655      40   57      density 0 
+1656      40   58      density 0 
+1657      40   59      density 0 
+1658      40   60      density 0 
+1659      40   61      density 0 
+1660      40   62      density 0 
+1661      41   42      density 0 
+1662      41   43      density 0 
+1663      41   44      density 0 
+1664      41   45      density 0 
+1665      41   46      density 0 
+1666      41   47      density 0 
+1667      41   48      density 0 
+1668      41   49      density 0 
+1669      41   50      density 0 
+1670      41   51      density 0 
+1671      41   52      density 0 
+1672      41   53      density 0 
+1673      41   54      density 0 
+1674      41   55      density 0 
+1675      41   56      density 0 
+1676      41   57      density 0 
+1677      41   58      density 0 
+1678      41   59      density 0 
+1679      41   60      density 0 
+1680      41   61      density 0 
+1681      41   62      density 0 
+1682      42   43      density 0 
+1683      42   44      density 0 
+1684      42   45      density 0 
+1685      42   46      density 0 
+1686      42   47      density 0 
+1687      42   48      density 0 
+1688      42   49      density 0 
+1689      42   50      density 0 
+1690      42   51      density 0 
+1691      42   52      density 0 
+1692      42   53      density 0 
+1693      42   54      density 0 
+1694      42   55      density 0 
+1695      42   56      density 0 
+1696      42   57      density 0 
+1697      42   58      density 0 
+1698      42   59      density 0 
+1699      42   60      density 0 
+1700      42   61      density 0 
+1701      42   62      density 0 
+1702      43   44      density 0 
+1703      43   45      density 0 
+1704      43   46      density 0 
+1705      43   47      density 0 
+1706      43   48      density 0 
+1707      43   49      density 0 
+1708      43   50      density 0 
+1709      43   51      density 0 
+1710      43   52      density 0 
+1711      43   53      density 0 
+1712      43   54      density 0 
+1713      43   55      density 0 
+1714      43   56      density 0 
+1715      43   57      density 0 
+1716      43   58      density 0 
+1717      43   59      density 0 
+1718      43   60      density 0 
+1719      43   61      density 0 
+1720      43   62      density 0 
+1721      44   45      density 0 
+1722      44   46      density 0 
+1723      44   47      density 0 
+1724      44   48      density 0 
+1725      44   49      density 0 
+1726      44   50      density 0 
+1727      44   51      density 0 
+1728      44   52      density 0 
+1729      44   53      density 0 
+1730      44   54      density 0 
+1731      44   55      density 0 
+1732      44   56      density 0 
+1733      44   57      density 0 
+1734      44   58      density 0 
+1735      44   59      density 0 
+1736      44   60      density 0 
+1737      44   61      density 0 
+1738      44   62      density 0 
+1739      45   46      density 0 
+1740      45   47      density 0 
+1741      45   48      density 0 
+1742      45   49      density 0 
+1743      45   50      density 0 
+1744      45   51      density 0 
+1745      45   52      density 0 
+1746      45   53      density 0 
+1747      45   54      density 0 
+1748      45   55      density 0 
+1749      45   56      density 0 
+1750      45   57      density 0 
+1751      45   58      density 0 
+1752      45   59      density 0 
+1753      45   60      density 0 
+1754      45   61      density 0 
+1755      45   62      density 0 
+1756      46   47      density 0 
+1757      46   48      density 0 
+1758      46   49      density 0 
+1759      46   50      density 0 
+1760      46   51      density 0 
+1761      46   52      density 0 
+1762      46   53      density 0 
+1763      46   54      density 0 
+1764      46   55      density 0 
+1765      46   56      density 0 
+1766      46   57      density 0 
+1767      46   58      density 0 
+1768      46   59      density 0 
+1769      46   60      density 0 
+1770      46   61      density 0 
+1771      46   62      density 0 
+1772      47   48      density 0 
+1773      47   49      density 0 
+1774      47   50      density 0 
+1775      47   51      density 0 
+1776      47   52      density 0 
+1777      47   53      density 0 
+1778      47   54      density 0 
+1779      47   55      density 0 
+1780      47   56      density 0 
+1781      47   57      density 0 
+1782      47   58      density 0 
+1783      47   59      density 0 
+1784      47   60      density 0 
+1785      47   61      density 0 
+1786      47   62      density 0 
+1787      48   49      density 0 
+1788      48   50      density 0 
+1789      48   51      density 0 
+1790      48   52      density 0 
+1791      48   53      density 0 
+1792      48   54      density 0 
+1793      48   55      density 0 
+1794      48   56      density 0 
+1795      48   57      density 0 
+1796      48   58      density 0 
+1797      48   59      density 0 
+1798      48   60      density 0 
+1799      48   61      density 0 
+1800      48   62      density 0 
+1801      49   50      density 0 
+1802      49   51      density 0 
+1803      49   52      density 0 
+1804      49   53      density 0 
+1805      49   54      density 0 
+1806      49   55      density 0 
+1807      49   56      density 0 
+1808      49   57      density 0 
+1809      49   58      density 0 
+1810      49   59      density 0 
+1811      49   60      density 0 
+1812      49   61      density 0 
+1813      49   62      density 0 
+1814      50   51      density 0 
+1815      50   52      density 0 
+1816      50   53      density 0 
+1817      50   54      density 0 
+1818      50   55      density 0 
+1819      50   56      density 0 
+1820      50   57      density 0 
+1821      50   58      density 0 
+1822      50   59      density 0 
+1823      50   60      density 0 
+1824      50   61      density 0 
+1825      50   62      density 0 
+1826      51   52      density 0 
+1827      51   53      density 0 
+1828      51   54      density 0 
+1829      51   55      density 0 
+1830      51   56      density 0 
+1831      51   57      density 0 
+1832      51   58      density 0 
+1833      51   59      density 0 
+1834      51   60      density 0 
+1835      51   61      density 0 
+1836      51   62      density 0 
+1837      52   53      density 0 
+1838      52   54      density 0 
+1839      52   55      density 0 
+1840      52   56      density 0 
+1841      52   57      density 0 
+1842      52   58      density 0 
+1843      52   59      density 0 
+1844      52   60      density 0 
+1845      52   61      density 0 
+1846      52   62      density 0 
+1847      53   54      density 0 
+1848      53   55      density 0 
+1849      53   56      density 0 
+1850      53   57      density 0 
+1851      53   58      density 0 
+1852      53   59      density 0 
+1853      53   60      density 0 
+1854      53   61      density 0 
+1855      53   62      density 0 
+1856      54   55      density 0 
+1857      54   56      density 0 
+1858      54   57      density 0 
+1859      54   58      density 0 
+1860      54   59      density 0 
+1861      54   60      density 0 
+1862      54   61      density 0 
+1863      54   62      density 0 
+1864      55   56      density 0 
+1865      55   57      density 0 
+1866      55   58      density 0 
+1867      55   59      density 0 
+1868      55   60      density 0 
+1869      55   61      density 0 
+1870      55   62      density 0 
+1871      56   57      density 0 
+1872      56   58      density 0 
+1873      56   59      density 0 
+1874      56   60      density 0 
+1875      56   61      density 0 
+1876      56   62      density 0 
+1877      57   58      density 0 
+1878      57   59      density 0 
+1879      57   60      density 0 
+1880      57   61      density 0 
+1881      57   62      density 0 
+1882      58   59      density 0 
+1883      58   60      density 0 
+1884      58   61      density 0 
+1885      58   62      density 0 
+1886      59   60      density 0 
+1887      59   61      density 0 
+1888      59   62      density 0 
+1889      60   61      density 0 
+1890      60   62      density 0 
+1891      61   62      density 0 
+
+faces    /* edge loop */      
+
+bodies  /* facets */
+
+read
+filename := "002653.177902776905-002604.715514931640.dmp"
+conj_grad on
+metric_conversion off
+gv_binary off
+
+
+// topeviewer:  (-0.73894995450973511, 0.30128303170204163, -0.56694263219833374, 0.20434670150279999) (0.38799035549163818, -0.86644798517227173, -0.027150839567184448, -0.31304031610488892) 1 0.78449999999999998 0.78659999999999997 0.86780000000000002 0.014999999999999999 0 100 0.035000000000000003 0 100 5 1 45 

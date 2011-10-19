@@ -1,0 +1,104 @@
+knot power: 1
+dumped digits: 12
+energy digits: 8
+length digits: 6
+evolver constraint tolerance: 1.0e-64
+symmetry length epsilon: 1.0e-03
+rank epsilon: 1.0e-06
+
+  data-minimal/1power/4d/005p/000008.000000000000-000015.811388300842.dmp | rank 4 | grp  120 | elms 25-2 20-3 30-4 24-5 20-6
+
+  data-minimal/1power/4d/006p/000013.000000000000-000023.120226906771.dmp | rank 4 | grp   72 | elms 21-2 8-3 18-4 24-6
+  data-minimal/1power/4d/006p/000013.000000000000-000023.111667470117.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+
+  data-minimal/1power/4d/007p/000019.000000000000-000031.823569420676.dmp | rank 4 | grp   48 | elms 23-2 2-3 8-4 10-6 4-12
+
+  data-minimal/1power/4d/008p/000026.000000000000-000041.941125496954.dmp | rank 4 | grp  384 | elms 75-2 32-3 132-4 96-6 48-8
+
+  data-minimal/1power/4d/009p/000035.000000000000-000053.329543194973.dmp | rank 4 | grp   80 | elms 35-2 12-4 4-5 20-10 8-20
+
+  data-minimal/1power/4d/010p/000045.000000000000-000066.132174431080.dmp | rank 4 | grp  200 | elms 45-2 50-4 24-5 80-10
+  data-minimal/1power/4d/010p/000045.000000000000-000066.115961337332.dmp | rank 4 | grp  120 | elms 25-2 20-3 30-4 24-5 20-6
+
+  data-minimal/1power/4d/011p/000056.417913010037-000080.269020527207.dmp | rank 4 | grp    2 | elms 1-2
+  data-minimal/1power/4d/011p/000056.420286940897-000080.271121542897.dmp | rank 4 | grp    2 | elms 1-2
+
+  data-minimal/1power/4d/012p/000068.847289000946-000095.810588115191.dmp | rank 4 | grp   48 | elms 23-2 2-3 8-4 10-6 4-12
+  data-minimal/1power/4d/012p/000068.852827653146-000095.809719637258.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+
+  data-minimal/1power/4d/013p/000083.200000000000-000112.676431451460.dmp | rank 4 | grp   52 | elms 13-2 26-4 12-13
+  data-minimal/1power/4d/013p/000083.231435319303-000112.664848832817.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/014p/000098.524598735599-000130.916299168116.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/015p/000115.233209661693-000150.536178775980.dmp | rank 4 | grp   72 | elms 21-2 8-3 18-4 24-6
+
+  data-minimal/1power/4d/016p/000133.899677986615-000171.478344902596.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+
+  data-minimal/1power/4d/017p/000153.962223739214-000193.781880918173.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+  data-minimal/1power/4d/017p/000154.013253154302-000193.784398689859.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/018p/000175.232354603972-000217.458903238880.dmp | rank 4 | grp    4 | elms 3-2
+
+  data-minimal/1power/4d/019p/000197.905808945064-000242.500916513447.dmp | rank 4 | grp    2 | elms 1-2
+
+  data-minimal/1power/4d/020p/000221.598536528557-000268.925182681931.dmp | rank 4 | grp   96 | elms 39-2 8-3 24-4 24-6
+
+  data-minimal/1power/4d/021p/000247.473258618748-000296.682282617273.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+
+  data-minimal/1power/4d/022p/000275.032318882418-000325.788771943597.dmp | rank 4 | grp   96 | elms 39-2 8-3 24-4 24-6
+  data-minimal/1power/4d/022p/000275.065533667445-000325.785739916836.dmp | rank 4 | grp    8 | elms 5-2 2-4
+  data-minimal/1power/4d/022p/000275.084966295128-000325.785895270705.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/023p/000304.083988940105-000356.247579552680.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+  data-minimal/1power/4d/023p/000304.179014778537-000356.248942155835.dmp | rank 4 | grp   24 | elms 9-2 8-3 6-4
+
+  data-minimal/1power/4d/024p/000334.000000000000-000388.100254017475.dmp | rank 4 | grp 1152 | elms 139-2 80-3 228-4 464-6 144-8 96-12
+  data-minimal/1power/4d/024p/000334.096008316648-000388.096255817110.dmp | rank 4 | grp   72 | elms 21-2 8-3 18-4 24-6
+
+  data-minimal/1power/4d/026p/000399.384987880561-000455.829596883771.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+  data-minimal/1power/4d/026p/000399.532717915805-000455.833546826885.dmp | rank 4 | grp   52 | elms 13-2 26-4 12-13
+  data-minimal/1power/4d/026p/000399.546125572951-000455.831409189879.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/032p/000631.983665097601-000691.688243577252.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+  data-minimal/1power/4d/032p/000632.002603764115-000691.686131512200.dmp | rank 4 | grp    8 | elms 5-2 2-4
+  data-minimal/1power/4d/032p/000632.077330042897-000691.690911155898.dmp | rank 4 | grp   32 | elms 17-2 2-4 4-8 8-16
+  data-minimal/1power/4d/032p/000632.083421123043-000691.684197623123.dmp | rank 4 | grp    4 | elms 3-2
+  data-minimal/1power/4d/032p/000632.103168239015-000691.684239586147.dmp | rank 4 | grp    8 | elms 5-2 2-4
+  data-minimal/1power/4d/032p/000632.113316640716-000691.687915187965.dmp | rank 4 | grp    4 | elms 3-2
+
+  data-minimal/1power/4d/033p/000675.584067757756-000735.770205544165.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+  data-minimal/1power/4d/033p/000676.357495483330-000735.745080739229.dmp | rank 4 | grp    8 | elms 5-2 2-4
+
+  data-minimal/1power/4d/038p/000920.565609538062-000976.473715725619.dmp | rank 4 | grp   48 | elms 19-2 8-3 12-4 8-6
+  data-minimal/1power/4d/038p/000920.815988884818-000976.473092503554.dmp | rank 4 | grp    8 | elms 5-2 2-4
+  data-minimal/1power/4d/038p/000920.843309947184-000976.471807039181.dmp | rank 4 | grp    6 | elms 1-2 2-3 2-6
+  data-minimal/1power/4d/038p/000920.909097608551-000976.469348759643.dmp | rank 4 | grp    2 | elms 1-2
+  data-minimal/1power/4d/038p/000921.045659608639-000976.466464540337.dmp | rank 4 | grp    2 | elms 1-2
+
+  data-minimal/1power/4d/042p/001144.312131363311-001193.510361350830.dmp | rank 4 | grp   24 | elms 7-2 8-3 8-6
+  data-minimal/1power/4d/042p/001144.608934787762-001193.502233284152.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+  data-minimal/1power/4d/042p/001144.666268305082-001193.498134494368.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/043p/001203.866710074889-001251.172568775066.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/045p/001328.950352002771-001370.558285503157.dmp | rank 4 | grp  120 | elms 25-2 20-3 30-4 24-5 20-6
+  data-minimal/1power/4d/045p/001329.088997528192-001370.556679024889.dmp | rank 4 | grp    4 | elms 3-2
+
+  data-minimal/1power/4d/048p/001529.174025974026-001559.815771365326.dmp | rank 4 | grp  192 | elms 55-2 8-3 8-4 8-6 64-8 16-12 32-24
+  data-minimal/1power/4d/048p/001529.683021692687-001559.802076017085.dmp | rank 4 | grp    6 | elms 3-2 2-3
+  data-minimal/1power/4d/048p/001529.727645229950-001559.804218726817.dmp | rank 4 | grp    4 | elms 1-2 2-4
+  data-minimal/1power/4d/048p/001529.729267669592-001559.800593852685.dmp | rank 4 | grp    2 | elms 1-2
+  data-minimal/1power/4d/048p/001529.939652857278-001559.795641162382.dmp | rank 4 | grp    2 | elms 1-2
+  data-minimal/1power/4d/048p/001529.941016486108-001559.794810545720.dmp | rank 4 | grp    2 | elms 1-2
+  data-minimal/1power/4d/048p/001529.949598887187-001559.793633976459.dmp | rank 4 | grp    1 | elms 
+
+  data-minimal/1power/4d/050p/001670.244733035990-001692.782041318041.dmp | rank 4 | grp  100 | elms 25-2 50-4 4-5 20-25
+  data-minimal/1power/4d/050p/001670.796736592177-001692.770143698308.dmp | rank 4 | grp    4 | elms 3-2
+  data-minimal/1power/4d/050p/001670.853543349811-001692.769093862164.dmp | rank 4 | grp    2 | elms 1-2
+  data-minimal/1power/4d/050p/001671.259546431445-001692.763488081313.dmp | rank 4 | grp    4 | elms 3-2
+  data-minimal/1power/4d/050p/001671.259788560737-001692.763654801803.dmp | rank 4 | grp    6 | elms 3-2 2-3
+
+  data-minimal/1power/4d/054p/001971.757001948705-001975.022767742487.dmp | rank 4 | grp   12 | elms 7-2 2-3 2-6
+
+  data-minimal/1power/4d/062p/002653.177902776905-002604.715514931640.dmp | rank 4 | grp   20 | elms 11-2 4-5 4-10

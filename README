@@ -1,0 +1,16 @@
+
+This is an experimentally exhaustive list of minimal configurations of
+electrons constrained to the 3-sphere, from 5 electrons to 24 electrons.
+
+Configurations of other numbers of electrons are also included.
+
+These may be viewed with 'topeviewer', an application found in the
+'esve' software package.  Most files here contain (optional)
+topeviewer data; press spacebar to cycle through the preset views.
+
+Included is a description of each configuration's symmetry group and a
+summary report of all configurations.  These were produced in part by
+the 'symfind' software package.
+
+Author: James M. Lawrence <llmjjmll@gmail.com>
+
